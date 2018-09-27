@@ -25,9 +25,9 @@ The data for each region is stored in a diferent directory. Each directory conta
 * features: csv file of size *_N_*x(*_D_*+3). *_N_* is the number of samples extracted from Flickr, this is, the number of uploaded images within the corresponding region. The first 3 entries of the columns represent latitude, longitude and a unique user ID, respectively, whereas the last *_D_* entries correspond to the dictionary entries. If a certain position *i* is activated (set to 1), the sample contains the *i*th tag in the dictionary.
 * GT: text file containing the ground-truth points for each location, i.e., the most important touristic landmarks within the region. The file is structured as follows:
 
-> latitude1 longitude1 relevance1 identifier1
-> latitude2 longitude2 relevance2 identifier2
-> latitude3 longitude3 relevance3 identifier3
+> latitude1 longitude1 relevance1 identifier1<br/>
+> latitude2 longitude2 relevance2 identifier2<br/>
+> latitude3 longitude3 relevance3 identifier3<br/>
 > ...
 
 This database was developed by [Eduardo Pla Sacristán] at University Carlos III of Madrid.
