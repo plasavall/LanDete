@@ -1,3 +1,6 @@
+# NOTE :bangbang:
+This is a temporarily empty repository. The database will be made publicly available once the article for which it was developed is accepted.
+
 ## Welcome to the LanDete Database
 LanDete is a database generated for Landmark Detection within regions or cities. It contains 6 diverse locations in Spain, ranging from small villages to large regions containing several population cores.
 
